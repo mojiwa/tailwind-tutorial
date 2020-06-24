@@ -13,9 +13,9 @@ Link to the stylesheet that will be created by TailwindCSS for the page:
 `<link rel="stylesheet" type="text/css" href="main.css">`
 
 Syntax for creating custom classes that can utilise the Tailwind classes:
-.my-class-name {
+`.my-class-name {
   @apply tailwind classes here
-}
+}`
 
 # Links
 
