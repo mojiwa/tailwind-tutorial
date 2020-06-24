@@ -1,21 +1,31 @@
 # Commands
 
 Install TailwindCSS:
-`npm install tailwindcss`
+```
+npm install tailwindcss
+```
 
 Create Tailwind config file preloaded with all defaults:
-`npx tailwind init tailwind.js --full`
+```
+npx tailwind init tailwind.js --full
+```
 
 Build the TailwindCSS stylesheet:
-`npx tailwindcss build tailwind.css -o main.css`
+```
+npx tailwindcss build tailwind.css -o main.css
+```
 
 Link to the stylesheet that will be created by TailwindCSS for the page:
-`<link rel="stylesheet" type="text/css" href="main.css">`
+```
+<link rel="stylesheet" type="text/css" href="main.css">
+```
 
 Syntax for creating custom classes that can utilise the Tailwind classes:
-`.my-class-name {
+```
+.my-class-name {
   @apply tailwind classes here
-}`
+}
+```
 
 # Links
 
