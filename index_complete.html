@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <title>TailwindCSS Demo</title>
+  </head>
+  <body class="w-1/2 mx-auto">
+    <div class="p-2">
+      This is my main div.
+    </div>
+    <div class="p-2">
+      This is my second div.
+    </div>
+    <div class="p-2 flex">
+      <div class="px-2 border-black border-2 border-solid">
+        These two divs...
+      </div>
+      <div class="px-2 border-black border-t-2 border-r-2 border-b-2 border-solid">
+        ...will appear side by side.
+      </div>
+    </div>
+    <div class="p-2 custom-div">
+      This text will be large.
+    </div>
+    <div class="p-2 text-blue-700">
+      This text will be blue.
+    </div>
+    <div class="p-2 text-orange-500 hover:text-blue-600">
+      This text will be orange but will turn blue when I hover over it.
+    </div>
+    <div class="p-2">
+      <div class="transform duration-700 ease-in-out hover:translate-x-1/2">
+        And this text will move when I hover.
+      </div>
+    </div>
+    <div class="border-2 p-2 text-lg shadow-2xl rounded-md w-1/6 text-center select-none cursor-pointer bg-gray-600 text-white transition duration-300 ease-in-out hover:text-black hover:shadow-md hover:bg-gray-300">
+      Hover Me
+    </div>
+    <div class="my-button">
+      Hover Me
+    </div>
+  </body>
+</html>
