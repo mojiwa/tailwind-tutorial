@@ -11,3 +11,7 @@ npx tailwindcss build tailwind.css -o main.css
 .my-class-name {
   @apply tailwind classes here
 }
+
+Links:
+
+https://tailwindcss.com/docs/installation

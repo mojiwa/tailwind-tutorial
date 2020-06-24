@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .my-button {
-  @apply border-2 p-2 text-lg shadow-2xl rounded-md w-1/6 text-center select-none cursor-pointer bg-gray-600 text-white transition duration-300 ease-in-out
+  @apply border-2 p-2 text-lg shadow-xl rounded-md w-1/6 text-center select-none cursor-pointer bg-gray-600 text-white transition duration-300 ease-in-out
 }
 
 .my-button:hover {
